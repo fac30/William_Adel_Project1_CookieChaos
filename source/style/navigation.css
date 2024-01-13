@@ -1,20 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+.navcontainer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffad33;
+    /* box-shadow: 0 4px 5px #804d00; */
+    /* text-shadow: 3px 3px 5px #804d00; */
+    text-transform: uppercase;
 }
 
 nav {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
     background-color: #333;
-    overflow: hidden;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #333;
 }
 
 nav a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -23,15 +33,21 @@ nav a:hover {
     color: black;
 }
 
-.container {
-    display: flex;
-    flex-flow: row wrap;
+.logo {
+    width: 120px;
+    height: 120px; 
+    background-color: #006400;
+    border-radius: 50%; 
+    position: absolute; 
+    top: 65%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 2;
 }
 
-.profile {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin: 10px
+.logo img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
