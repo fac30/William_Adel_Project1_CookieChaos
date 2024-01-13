@@ -3,36 +3,99 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Cookie Chaos</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='source/style/root.css'>
     <script src=''></script>
 </head>
 <body>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div id="home">
-        <h2>home</h2>
-        <p>content</p>
+    <div class="navcontainer">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <div class="logo">
+                <img src="source/images/Cookie chaos.png" alt="Chocolate Chip Cookie">
+            </div>
+            <a href="#cookies">Cookies</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </div>
 
-    <div id="about" class="container">
-        <div class="profile">
-
+    <div class="container">
+        <div id="home">
+            <h2>home</h2>
+            <p>content</p>
         </div>
-        <div class="profile">
 
+        <div id="about">
+            <div class="about-container">
+                <h2>About Us</h2>
+                <p>content</p>
+            </div>
+            <div class="profile-container">
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg" alt="Adel">
+                    </div>
+                    <h2>Adel</h2>
+                    <p>Master Baker</p>
+                    <p>With over 15 years of experience, John creates mouthwatering cakes that leave a lasting impression.</p>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg" alt="William">
+                    </div>
+                    <h2>William</h2>
+                    <p>Pastry Chef</p>
+                    <p>Jane's artistic touch transforms ordinary cookies into delightful works of edible art.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="cookies">
+            <div class="cookies-container">
+                <h2>Cookies</h2>
+                <p></p>
+            </div>
+            <div class="cookies-gallery">
+                <div class="cookie">
+                    <img src="https://www.cookingclassy.com/wp-content/uploads/2014/06/chocolate-chip-cookie-16.jpg" alt="Chocolate Chip Cookie">
+                    <p>Chocolate Chip Cookie</p>
+                </div>
+                <div class="cookie">
+                    <img src="https://www.cookingclassy.com/wp-content/uploads/2014/06/chocolate-chip-cookie-16.jpg" alt="Snickerdoodle Cookie">
+                    <p>Snickerdoodle Cookie</p>
+                </div>
+                <div class="cookie">
+                    <img src="https://www.cookingclassy.com/wp-content/uploads/2014/06/chocolate-chip-cookie-16.jpg" alt="Oatmeal Cookie">
+                    <p>Oatmeal Cookie</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" >
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone number:</label>
+                <input type="phone" id="phone" name="phone" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </div>
 
-    <div id="contact" class="container">
-        
-    </div>
+    <footer>
+
+    </footer>
 
 </body>
 </html>
