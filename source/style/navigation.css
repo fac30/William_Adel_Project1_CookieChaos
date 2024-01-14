@@ -2,41 +2,37 @@
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
   background-color: var(--orange);
-  /* box-shadow: 0 4px 5px #804d00; */
-  /* text-shadow: 3px 3px 5px #804d00; */
+  box-shadow: 0 4px 5px var(--brownshadow);
   text-transform: uppercase;
 }
 
 nav {
   width: 60%;
   margin: auto;
-  margin-top: 10px;
-  background-color: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 10px; */
-  background-color: #333;
+  padding: 5 50px;
+  background-color: var(--lightorange);
 }
 
 nav a {
   display: inline-block;
-  color: white;
+  color: var(--brown);
   text-align: center;
   padding: 20px;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--lightorange);
 }
 
 .logo {
   width: 120px;
   height: 120px;
-  background-color: #006400;
   border-radius: 50%;
   position: absolute;
   top: 65%;
