@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    
+}
+
+.cookies-info{
+    margin: auto;
 }
 
 .cookies-gallery{
@@ -13,11 +18,13 @@
 
 .cookie {
     flex: 1;
-    /* flex-basis: calc(33% - 10px); */
     padding: 20px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .cookie img {
