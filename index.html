@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cookie Chaos</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='source/style/root.css'>
-    <script src=''></script>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="source/style/root.css"
+    />
+    <script src=""></script>
+  </head>
+  <body>
     <div class="navcontainer">
         <div class="logo">
             <img src="source/images/CookieChaos.png" alt="Chocolate Chip Cookie">
@@ -22,35 +27,48 @@
     </div>
 
     <div class="container">
-        <div id="home">
-            <h2>home</h2>
-            <p>content</p>
-        </div>
+      <div id="home">
+        <h2>home</h2>
+        <p>content</p>
+      </div>
 
-        <div id="about">
-            <div class="about-container">
-                <h2>About Us</h2>
-                <p>content</p>
-            </div>
-            <div class="profile-container">
-                <div class="profile">
-                    <div class="profile-photo">
-                        <img src="https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg" alt="Adel">
-                    </div>
-                    <h2>Adel</h2>
-                    <p>Master Baker</p>
-                    <p>With over 15 years of experience, John creates mouthwatering cakes that leave a lasting impression.</p>
-                </div>
-                <div class="profile">
-                    <div class="profile-photo">
-                        <img src="https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg" alt="William">
-                    </div>
-                    <h2>William</h2>
-                    <p>Pastry Chef</p>
-                    <p>Jane's artistic touch transforms ordinary cookies into delightful works of edible art.</p>
-                </div>
-            </div>
+      <section id="about">
+        <div class="container">
+          <h2 class="about-heading">About Us</h2>
+          <p class="about-content">Brace yourself, for Cookie Chaos is a bakery like no other. Welcome to the depths of confectionery madness, where anything can (and will!) happen. Led by the quirky owner Jane Doe, our demented design team unleashes its sugar-fueled creative energies daily. They craft wildly imaginative cookies and muffins while pushing the boundaries of culinary insanity. From cookies depicting your favourite political conspiracy theories to muffins oozing a rainbow of questionable flavours, no bake escapes unscathed from our oven of mayhem. So if you're seeking to take your event "over the top" in the deranged way possible, let our loose cannons of crumbling cookies bring the complete party pandemonium. Just know that once you taste our goods, your grip on reality may never be the same!</p>
         </div>
+      </section>
+      <section id="team">
+          <div class="profile">
+            <div class="profile-photo">
+              <img class="profile-img"
+                src="https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg"
+                alt="Adel"
+              />
+            </div>
+            <h2>Adel</h2>
+            <p>Master Baker</p>
+            <p>
+              With over 15 years of experience, John creates mouthwatering cakes
+              that leave a lasting impression.
+            </p>
+          </div>
+          <div class="profile">
+            <div class="profile-photo">
+              <img class="profile-img"
+                src="https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg"
+                alt="William"
+              />
+            </div>
+            <h2>William</h2>
+            <p>Pastry Chef</p>
+            <p>
+              Jane's artistic touch transforms ordinary cookies into delightful
+              works of edible art.
+            </p>
+          </div>
+      </div>
+      </section>
 
         <div id="cookies">
             <div class="cookies-info">
@@ -79,29 +97,26 @@
             </div>
         </div>
 
-        <div id="contact" >
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+      <div id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
-                <label for="phone">Phone number:</label>
-                <input type="phone" id="phone" name="phone" required>
+          <label for="phone">Phone number:</label>
+          <input type="phone" id="phone" name="phone" required />
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
 
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
 
-    <footer>
-
-    </footer>
-
-</body>
+    <footer></footer>
+  </body>
 </html>

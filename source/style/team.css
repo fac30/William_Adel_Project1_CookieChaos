@@ -1,0 +1,39 @@
+#team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.profile {
+  display: grid;
+  grid-area: "image" "name" "description";
+  max-width: 300px;
+}
+
+.profile-photo {
+  grid-template-areas: image;
+  border-radius: 2 px solid black;
+  border-radius: 50%;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+}
+.profile-name {
+  grid-template-areas: name;
+}
+.profile-desc {
+  grid-template-areas: description;
+}
+
+@media (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .profile {
+    flex: 100%;
+  }
+}
