@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5 50px;
+  padding: 0 50px;
   background-color: var(--lightorange);
 }
 
@@ -24,26 +24,33 @@ nav a {
   text-align: center;
   padding: 20px;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: font-size 0.3s;
 }
 
 nav a:hover {
   background-color: var(--lightorange);
+  box-shadow: 0 4px 5px var(--brownshadow);
+  font-size: 16px;
 }
 
 .logo {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  border: 3px solid var(--brown);
   position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30px;
+  left: 45px;
+  transform: translate(-100%, -50%);
+  margin: 0 40px;
   overflow: hidden;
-  z-index: 2;
 }
 
 .logo img {
   width: 100%;
   height: auto;
   display: block;
+  transform: rotate(320deg);
 }
