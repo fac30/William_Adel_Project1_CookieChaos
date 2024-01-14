@@ -1,0 +1,11 @@
+.content-container {
+  max-width: 60%;
+}
+
+.content-heading {
+  font-size: var(--font-subheading);
+}
+
+.content-description {
+  font-size: var(--font-content);
+}
