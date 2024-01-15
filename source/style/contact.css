@@ -1,33 +1,60 @@
 #contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.contact-heading {
+  font-size: var(--font-h2);
+  text-align: center;
 }
 
 form {
-    max-width: 400px;
-    width: 100%;
-    box-sizing: border-box;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 label {
-    display: block;
-    margin-bottom: 8px;
+  display: block;
+  margin-bottom: 8px;
+  font-size: var(--font-h3);
 }
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: #d1d1d1 1px solid;
 }
 
+input:focus {
+  box-shadow: 0 4px 5px var(--brown);
+  outline: none;
+}
+textarea:focus {
+  box-shadow: 0 4px 5px var(--brown);
+  outline: none;
+}
 input[type="submit"] {
-    background-color: #333;
-    color: white;
-    cursor: pointer;
+  background-color: #376ad7;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:focus {
+  background-color: #094ee2;
+}
+input[type="submit"]:hover {
+  background-color: #094ee2;
+}
+
+.required {
+  color: #801a15;
 }
