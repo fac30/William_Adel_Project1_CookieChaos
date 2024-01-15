@@ -10,9 +10,11 @@
   --font-header: Arial, sans-serif;
   --font-content: Arial, sans-serif;
 
-  --font-heading: 2rem;
-  --font-subheading: 1.6rem;
-  --font-content: 1.2rem;
+  --font-h1: 2rem;
+  --font-h2: 1.6rem;
+  --font-h3: 1.4rem;
+  --font-h4: 1.3rem;
+  --font-content: 1.1rem;
 
   /*link styling*/
   --link: #fff;

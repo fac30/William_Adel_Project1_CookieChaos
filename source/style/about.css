@@ -4,15 +4,3 @@
   border: 1px solid black;
   align-items: center;
 }
-
-.about-container {
-  max-width: 60%;
-}
-
-.about-heading {
-  font-size: var(--font-subheading);
-}
-
-.about-content {
-  font-size: var(--font-content);
-}
