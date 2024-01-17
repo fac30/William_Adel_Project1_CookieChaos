@@ -36,9 +36,17 @@
     height: auto;
     object-fit: fill;
     object-position: center;
+    animation: scaleAnimation 5s infinite alternate;
 }
 
-
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
 
 .contentbox {
     display: flex;
