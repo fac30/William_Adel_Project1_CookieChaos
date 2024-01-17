@@ -81,6 +81,9 @@
     max-height: 50px;
 }
 
-
+.button:hover {
+    background-color: var(--brown);
+    color: var(--lightcream);
+}
 
 
