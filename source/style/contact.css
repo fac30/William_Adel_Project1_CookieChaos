@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  border: 1px solid black;
+  background-image: radial-gradient(#ffbb3285, var(--orange));
 }
 
 .contact-heading {
@@ -43,18 +43,19 @@ textarea:focus {
   outline: none;
 }
 input[type="submit"] {
-  background-color: #376ad7;
+  background-color: var(--brown);
   color: white;
   cursor: pointer;
+  border: none;
 }
 
 input[type="submit"]:focus {
-  background-color: #094ee2;
+  background-color: #663300ba;
 }
 input[type="submit"]:hover {
-  background-color: #094ee2;
+  background-color: #663300ba;
 }
 
 .required {
-  color: #801a15;
+  color: #eb716b;
 }
