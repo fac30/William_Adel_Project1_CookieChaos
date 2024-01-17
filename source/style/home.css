@@ -68,9 +68,17 @@
 }
 
 .button {
+    text-transform: uppercase;
+    font-family: "Jazz LET", fantasy;
+    font-size: 20px;
     border: 1px solid var(--brown);
     padding: 40px 50px;
-
+    margin-left: 40px;
+    box-shadow: 0 4px 5px var(--brownshadow);
+    text-decoration: none;
+    color: var(--brown);
+    transition: background-color 0.3s;
+    max-height: 50px;
 }
 
 
