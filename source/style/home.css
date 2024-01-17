@@ -94,4 +94,22 @@
     color: var(--lightcream);
 }
 
+.cookieimg {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    z-index: -1;
+    width: 100px;
+    animation: peekAnimation 2s infinite alternate;
+}
 
+@keyframes peekAnimation {
+    0% {
+        transform: translateX(60px) rotate(290deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0) rotate(300deg);
+        opacity: 1;
+    }
+}
