@@ -6,6 +6,7 @@
   background-color: var(--orange);
   box-shadow: 0 4px 5px var(--brownshadow);
   text-transform: uppercase;
+  z-index: 2;
 }
 
 nav {
