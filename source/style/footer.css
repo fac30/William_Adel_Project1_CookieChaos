@@ -13,3 +13,8 @@ footer {
   margin: 20px 30px;
   font-size: var(--font-content);
 }
+
+small a{
+  color: var(--lightcream);
+  text-decoration: none;
+}
