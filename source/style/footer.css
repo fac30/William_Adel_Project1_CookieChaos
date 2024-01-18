@@ -1,6 +1,6 @@
 footer {
-    background-color: rgba(160, 163, 177, 0.63);
-    color: white;
+    background-color: var(--brown);
+    color: var(--lightcream);
     text-align: center;
     padding: 20px;
     width: 100%;

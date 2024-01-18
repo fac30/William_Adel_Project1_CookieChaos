@@ -14,24 +14,26 @@
     <script src=""></script>
   </head>
   <body>
-    <div class="navcontainer">
-        <div class="logo">
-            <img src="source/images/CookieChaos.png" alt="Chocolate Chip Cookie">
-        </div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About us</a>
-            <a href="#cookies">Cookies</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
+    <header>
+      <div class="navcontainer">
+          <div class="logo">
+              <img src="source/images/CookieChaos.png" alt="Chocolate Chip Cookie">
+          </div>
+          <nav>
+              <a href="#home">Home</a>
+              <a href="#about">About us</a>
+              <a href="#cookies">Cookies</a>
+              <a href="#contact">Contact</a>
+          </nav>
+      </div>
+    </header>
 
-    <div class="container">
+    <main class="container">
       <section id="home">
         <img class="cookieimg" src="source/images/cookie.png">
         <h2 class="title">Cookie</h2>
         <h2 class="title">Chaos</h2>
-        <h2 class="title town">London</h2>
+        <!-- <h2 class="title town">London</h2> -->
         <div class=hero-content>
             <div class="imagebox">
                 <img src="source/images/cookiesanimated.jpg">
@@ -77,7 +79,6 @@
               works of edible art.
             </p>
           </div>
-      
       </section>
 
       <section id="cookies">
@@ -105,7 +106,7 @@
       </section>
 
       <section id="contact">
-        <h2 class="contact-heading">Contact Us</h2>
+        <h2 class="content-heading">Contact Us</h2>
         <form action="#" method="post">
           <label for="name">Name <strong class="required">*</strong>:</label>
           <input type="text" id="name" name="name" required placeholder="Enter your name" />
@@ -122,8 +123,7 @@
           <input type="submit" value="Submit" />
         </form>
       </section>
-    </div>
-</div>
+    </main>
     <footer></footer>
   </body>
 </html>

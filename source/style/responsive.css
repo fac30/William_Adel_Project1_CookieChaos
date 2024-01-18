@@ -1,0 +1,18 @@
+@media (max-width: 1100px) and (min-width: 601px) {
+    
+
+
+}
+
+@media (max-width: 600px) {
+    .about {
+        flex-direction: column;
+      }
+    .profile {
+        flex: 100%;
+    }
+    .cookie {
+        flex: 100%;
+        flex-basis: calc(100% - 20px);
+    }
+}

@@ -10,6 +10,7 @@
   box-shadow: 0 4px 5px var(--brownshadow);
   margin: 0;
   padding: 0;
+  background-color: var(--lightcream);
 }
 
 .card-image {
