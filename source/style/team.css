@@ -16,7 +16,7 @@
 
 .profile-photo {
   grid-template-areas: image;
-  border-radius: 2 px solid black;
+  /* border-radius: 2 px solid black; */
   border-radius: 50%;
 }
 .profile-img {
