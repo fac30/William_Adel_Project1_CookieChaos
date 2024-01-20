@@ -6,7 +6,7 @@
   --lightcream: #fcddbf;
   --brownshadow: #804d00;
   --brown: #663300;
-  /* --font: #000; */
+    /* --font: #000; */
   --font-header: Arial, sans-serif;
   --font-content: Arial, sans-serif;
 
@@ -30,4 +30,8 @@ body {
   font-family: var(---font-content);
   color: var(--brown);
   background-color: var(--lightcream);
+}
+
+section {
+  text-align: justify;
 }
