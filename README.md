@@ -1,6 +1,18 @@
 # William_Adel_Project1_CookieChaos
 
+Here a link: https://fac30.github.io/William_Adel_Project1_CookieChaos/#home
+
+#Objective: Create a website that represent our Agency, our values and projects, and user can get in touch with us through the contact form.
+
+#Resources: 
+
+- AI generated images and content
+- Project managment via Google sheet / doc
+- Presentation: https://hackmd.io/@qeQaRqXGTYiHATuSuEA44w/r1taFM7Ka
+
+
 #The User Story
+
 As a potential client interested in ordering custom cakes and cookies in London. I want to visit the Cookie Chaos Agency to learn about the team, see their offers of cookies and easily get in touch with them to order or inquire about their service.
 
 #Acceptance Criteria:
