@@ -97,17 +97,16 @@
     }
 
     /* mobile botton navigation */
-    /* .navcontainer{
+    .navcontainer{
         bottom: 0;
         top: auto;
     }
-    .nav {
-        width: 100%;
+    
         padding: 0 0;
     }
     .logo {
         display:none;
-    } */
+    }
 
     
     .about {
