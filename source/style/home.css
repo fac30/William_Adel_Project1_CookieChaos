@@ -103,6 +103,11 @@
     color: var(--lightcream);
 }
 
+.button:focus {
+    background-color: var(--brown);
+    color: var(--lightcream);
+}
+
 .cookieimg {
     position: absolute;
     top: 550px;
