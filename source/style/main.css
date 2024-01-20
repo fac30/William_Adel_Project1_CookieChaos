@@ -32,6 +32,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: var(---font-header);
+  font-family: var(---font-content);
+  color: var(--brown);
   background-color: var(--lightcream);
+}
+
+section {
+  text-align: justify;
 }

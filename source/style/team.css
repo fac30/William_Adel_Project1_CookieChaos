@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   /* border: 1px solid black; */
+  background-image: radial-gradient(#ffbb3285, var(--cream));
+  padding: 20px 0;
 }
 
 .profile {
@@ -26,14 +28,4 @@
 }
 .profile-desc {
   grid-template-areas: description;
-}
-
-@media (max-width: 600px) {
-  .about {
-    flex-direction: column;
-  }
-
-  .profile {
-    flex: 100%;
-  }
 }

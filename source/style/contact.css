@@ -7,10 +7,11 @@
   background-image: radial-gradient(var(--dirtyorange), var(--orange));
 }
 
-.contact-heading {
+/* Not necesserry, use content-heading style */
+/* .contact-heading {
   font-size: var(--font-h2);
   text-align: center;
-}
+} */
 
 form {
   max-width: 400px;
