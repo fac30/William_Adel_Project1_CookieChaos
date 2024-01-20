@@ -1,5 +1,4 @@
 #cookies {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   /* border: 1px solid black; */
@@ -10,10 +9,9 @@
 .cookies-gallery {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 40px 0;
   /* border: 1px solid black; */
   width: 100%;
+  gap: 5%;
 }
-
-
