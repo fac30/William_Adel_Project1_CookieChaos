@@ -18,3 +18,13 @@ small a{
   color: var(--lightcream);
   text-decoration: none;
 }
+
+small a:hover{
+  background-color: var(--cream);
+  color: var(--brown);
+}
+
+small a:focus{
+  background-color: var(--cream);
+  color: var(--brown);
+}
