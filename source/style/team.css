@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .profile {
@@ -14,7 +14,7 @@
 
 .profile-photo {
   grid-template-areas: image;
-  border-radius: 2 px solid black;
+  /* border-radius: 2 px solid black; */
   border-radius: 50%;
 }
 .profile-img {

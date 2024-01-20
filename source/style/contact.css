@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-image: radial-gradient(#ffbb3285, var(--orange));
+  background-image: radial-gradient(var(--dirtyorange), var(--orange));
 }
 
 .contact-heading {
@@ -31,7 +31,7 @@ textarea {
   margin-bottom: 16px;
   box-sizing: border-box;
   border-radius: var(--border-radius);
-  border: #d1d1d1 1px solid;
+  border: var(--greywhite) 1px solid;
 }
 
 input:focus {
@@ -44,18 +44,53 @@ textarea:focus {
 }
 input[type="submit"] {
   background-color: var(--brown);
-  color: white;
+  color: var(--white);
   cursor: pointer;
   border: none;
 }
 
 input[type="submit"]:focus {
-  background-color: #663300ba;
+  background-color: var(--darkbrown);
 }
 input[type="submit"]:hover {
-  background-color: #663300ba;
+  background-color: var(--darkbrown);
 }
 
 .required {
-  color: #eb716b;
+  color: var(--required);
+}
+
+#messageOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(var(--dirtyorange), var(--orange));
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+#messagePopUp {
+  max-width: 15rem;
+  background: var(--lightcream);
+  color: var(--brown);
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--brownshadow);
+  position: relative;
+  font-size: var(--font-h3);
+  text-align: justify;
+}
+
+#closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: var(--font-h3);
+  font-weight: bold;
+  color: var(--brown);
 }

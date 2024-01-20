@@ -2,10 +2,15 @@
   /*Font styling*/
   --orange: #ffbb32;
   --lightorange: #f9d58be6;
+  --dirtyorange: #ffbb3285;
   --cream: #ffcc99;
   --lightcream: #fcddbf;
   --brownshadow: #804d00;
   --brown: #663300;
+  --darkbrown: #663300ba;
+  --required: #eb716b;
+  --greywhite: #d1d1d1;
+  --white: #fff;
   --font: #000;
   --font-header: Arial, sans-serif;
   --font-content: Arial, sans-serif;
