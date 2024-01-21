@@ -22,9 +22,11 @@ small a{
 small a:hover{
   background-color: var(--cream);
   color: var(--brown);
+  padding: 5px;
 }
 
 small a:focus{
   background-color: var(--cream);
   color: var(--brown);
+  padding: 5px;
 }

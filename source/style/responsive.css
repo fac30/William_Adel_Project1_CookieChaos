@@ -26,9 +26,6 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    /* margin-left: auto;
-        margin-right: auto;
-        justify-content: center; */
   }
   .home-title-container {
     letter-spacing: 10px;
@@ -41,8 +38,6 @@
     font-size: 2.2rem;
     margin: 10px 0;
     padding: none;
-    /* line-height: 10%; */
-    /* font-size: 60px; */
   }
   .subtitle {
     font-size: 1.6rem;
