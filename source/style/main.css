@@ -27,6 +27,23 @@
   /*Box size/border*/
   --border-radius: 5px;
   --section-max-width: 1500px;
+  font-family: "LibreBaskerville-regular";
+}
+
+@font-face {
+  font-family: LibreBaskerville-bold;
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf)
+    format(truetype);
+}
+@font-face {
+  font-family: LibreBaskerville-regular;
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+    format(truetype);
+}
+@font-face {
+  font-family: LibreBaskerville-italic;
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf)
+    format(truetype);
 }
 
 body {
