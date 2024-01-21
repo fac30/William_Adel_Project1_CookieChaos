@@ -18,17 +18,19 @@
     letter-spacing: 30px;
     font-size: 80px;
     padding-top: 10px;
-    font-weight: bold;
+    font-family: "LibreBaskerville-bold";
     margin: 0 20px;
     line-height: 130%;
+    max-height: min-content;
 }
 
 .subtitle {
     font-size: 30px;
     writing-mode: horizontal-tb;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-weight: bold;
     margin: 20px;
+    font-family: "LibreBaskerville-bold";
 }
 
 .home-content-img {
