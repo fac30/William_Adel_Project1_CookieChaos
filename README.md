@@ -2,7 +2,7 @@
 
 __Here a link:__ https://fac30.github.io/William_Adel_Project1_CookieChaos/#home
 
-__Objective:__ Create a website that represent our Agency, values and projects. sers can get in touch with us through the contact form. It is accessible for visually impared users, also navigateble with keyboard. U
+__Objective:__ Create a website that represent our Agency, values and projects. sers can get in touch with us through the contact form. It is accessible for visually impared users, also navigateble with keyboard.
 
 __Resources:__ 
 
