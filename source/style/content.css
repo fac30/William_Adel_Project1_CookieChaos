@@ -4,9 +4,9 @@
 
 .content-heading {
   font-size: var(--font-h2);
-  font-family: "LibreBaskerville-bold";
+  font-family: var(--font-header);
 }
 
 .content-description {
-  font-size: var(--font-content);
+  font-size: var(--font-p);
 }

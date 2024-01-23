@@ -83,7 +83,7 @@ input[type="submit"]:hover {
   box-shadow: 0 0 10px var(--brownshadow);
   position: relative;
   font-size: var(--font-h3);
-  text-align: justify;
+  text-align: left;
 }
 
 #closeButton {
@@ -93,5 +93,15 @@ input[type="submit"]:hover {
   cursor: pointer;
   font-size: var(--font-h3);
   font-weight: bold;
-  color: var(--brown);
+  background-color: var(--brown);
+  color: var(--white);
+  border: none;
+}
+
+#closeButton:focus {
+  background-color: var(--darkbrown);
+}
+
+#closeButton:hover {
+  background-color: var(--darkbrown);
 }
