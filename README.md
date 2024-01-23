@@ -1,6 +1,6 @@
 # William_Adel_Project1_CookieChaos
 
-**Here a link:** https://fac30.github.io/William_Adel_Project1_CookieChaos/#home
+**Demo link:** https://fac30.github.io/William_Adel_Project1_CookieChaos/#home
 
 **Objective:** Create a website that represent our Agency, values and projects. sers can get in touch with us through the contact form. It is accessible for visually impared users, also navigateble with keyboard.
 
