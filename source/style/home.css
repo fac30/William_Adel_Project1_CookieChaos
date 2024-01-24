@@ -10,7 +10,7 @@
   background-color: var(--lightcream);
 }
 
-.home-title-container h2 {
+.home-title-container h1 {
   color: var(--brown);
   writing-mode: vertical-lr;
   text-orientation: upright;

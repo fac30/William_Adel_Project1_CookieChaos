@@ -3,7 +3,7 @@
   #home {
     max-width: 50rem;
   }
-  .home-title-container h2 {
+  .home-title-container h1 {
     font-size: 40px;
     letter-spacing: 70px;
     padding-top: 20px;
@@ -32,7 +32,7 @@
     line-height: 10%;
     justify-content: center;
   }
-  .home-title-container h2 {
+  .home-title-container h1 {
     writing-mode: horizontal-tb;
     letter-spacing: 25px;
     font-size: 2.2rem;
@@ -57,7 +57,7 @@
     margin: 30px auto;
     padding: 0;
   }
-  .home-title-container h2 {
+  .home-title-container h1 {
     margin: 20px 0;
     letter-spacing: 8px;
     font-size: 30px;
