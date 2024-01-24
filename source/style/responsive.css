@@ -76,7 +76,7 @@
     flex-direction: column-reverse;
   }
   .button {
-    width: 200px;
+    max-width: 200px;
     padding: 30px 50px;
   }
   .home-content-infobox {
@@ -90,20 +90,23 @@
     margin: 20px 0;
   }
 
-    /* mobile botton navigation */
-    .navcontainer{
-        bottom: 0;
-        top: auto;
-    }
+  /* mobile botton navigation */
+  .navcontainer {
+    bottom: 0;
+    top: auto;
+  }
 
-    nav {
-        width: 100%;
-        padding: 0 0;
-    }
-    
-    .logo {
-        display:none;
-    }
+  nav {
+    width: 100%;
+    padding: 0 0;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: center;
+  }
+
+  .logo {
+    display: none;
+  }
 
   .about {
     flex-direction: column;

@@ -11,6 +11,7 @@
       media="screen"
       href="source/style/root.css"
     />
+    <link rel="icon" type="image/x-icon" href="source/images/CookieChaos.png" />
   </head>
   <body>
     <header class="navcontainer">
@@ -213,7 +214,7 @@
           <input type="submit" value="Submit" tabindex="0" />
         </form>
 
-        <div id="messageOverlay">
+        <div id="messageOverlay" onclick="hideMessage()">
           <div id="messagePopUp">
             <button id="closeButton" onclick="hideMessage()" tabindex="0">
               x
